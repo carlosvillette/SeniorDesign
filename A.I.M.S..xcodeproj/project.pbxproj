@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8004EB9023E8922E00FE879F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004EB8F23E8922E00FE879F /* ViewController.swift */; };
 		80341E3423E77EAE000FEF6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80341E3323E77EAE000FEF6F /* AppDelegate.swift */; };
 		80341E3623E77EAE000FEF6F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80341E3523E77EAE000FEF6F /* RootViewController.swift */; };
 		80341E3823E77EAE000FEF6F /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80341E3723E77EAE000FEF6F /* DataViewController.swift */; };
@@ -15,6 +16,11 @@
 		80341E3F23E77EAE000FEF6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80341E3E23E77EAE000FEF6F /* Assets.xcassets */; };
 		80341E4223E77EAE000FEF6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80341E4023E77EAE000FEF6F /* LaunchScreen.storyboard */; };
 		80341E4D23E77EAF000FEF6F /* A_I_M_S_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80341E4C23E77EAF000FEF6F /* A_I_M_S_Tests.swift */; };
+		80341E5B23E78B4B000FEF6F /* Bread.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80341E5723E78B4B000FEF6F /* Bread.jpg */; };
+		80341E5C23E78B4B000FEF6F /* Cheese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80341E5823E78B4B000FEF6F /* Cheese.jpg */; };
+		80341E5D23E78B4B000FEF6F /* Juice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80341E5923E78B4B000FEF6F /* Juice.jpg */; };
+		80341E5E23E78B4B000FEF6F /* Milk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80341E5A23E78B4B000FEF6F /* Milk.jpg */; };
+		80341E6623E7AE71000FEF6F /* DataViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80341E6523E7AE71000FEF6F /* DataViewControllerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8004EB8F23E8922E00FE879F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		80341E3023E77EAE000FEF6F /* A.I.M.S..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.I.M.S..app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80341E3323E77EAE000FEF6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80341E3523E77EAE000FEF6F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +47,11 @@
 		80341E4823E77EAE000FEF6F /* A.I.M.S.Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A.I.M.S.Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80341E4C23E77EAF000FEF6F /* A_I_M_S_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_I_M_S_Tests.swift; sourceTree = "<group>"; };
 		80341E4E23E77EAF000FEF6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80341E5723E78B4B000FEF6F /* Bread.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bread.jpg; sourceTree = "<group>"; };
+		80341E5823E78B4B000FEF6F /* Cheese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cheese.jpg; sourceTree = "<group>"; };
+		80341E5923E78B4B000FEF6F /* Juice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Juice.jpg; sourceTree = "<group>"; };
+		80341E5A23E78B4B000FEF6F /* Milk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Milk.jpg; sourceTree = "<group>"; };
+		80341E6523E7AE71000FEF6F /* DataViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataViewControllerTableViewCell.swift; path = ../DataViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +97,16 @@
 				80341E3523E77EAE000FEF6F /* RootViewController.swift */,
 				80341E3723E77EAE000FEF6F /* DataViewController.swift */,
 				80341E3923E77EAE000FEF6F /* ModelController.swift */,
+				80341E6523E7AE71000FEF6F /* DataViewControllerTableViewCell.swift */,
+				8004EB8F23E8922E00FE879F /* ViewController.swift */,
 				80341E3B23E77EAE000FEF6F /* Main.storyboard */,
 				80341E3E23E77EAE000FEF6F /* Assets.xcassets */,
 				80341E4023E77EAE000FEF6F /* LaunchScreen.storyboard */,
 				80341E4323E77EAE000FEF6F /* Info.plist */,
+				80341E5723E78B4B000FEF6F /* Bread.jpg */,
+				80341E5823E78B4B000FEF6F /* Cheese.jpg */,
+				80341E5923E78B4B000FEF6F /* Juice.jpg */,
+				80341E5A23E78B4B000FEF6F /* Milk.jpg */,
 			);
 			path = A.I.M.S.;
 			sourceTree = "<group>";
@@ -189,7 +207,11 @@
 			files = (
 				80341E4223E77EAE000FEF6F /* LaunchScreen.storyboard in Resources */,
 				80341E3F23E77EAE000FEF6F /* Assets.xcassets in Resources */,
+				80341E5D23E78B4B000FEF6F /* Juice.jpg in Resources */,
+				80341E5B23E78B4B000FEF6F /* Bread.jpg in Resources */,
+				80341E5C23E78B4B000FEF6F /* Cheese.jpg in Resources */,
 				80341E3D23E77EAE000FEF6F /* Main.storyboard in Resources */,
+				80341E5E23E78B4B000FEF6F /* Milk.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,10 +229,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8004EB9023E8922E00FE879F /* ViewController.swift in Sources */,
 				80341E3623E77EAE000FEF6F /* RootViewController.swift in Sources */,
 				80341E3A23E77EAE000FEF6F /* ModelController.swift in Sources */,
 				80341E3823E77EAE000FEF6F /* DataViewController.swift in Sources */,
 				80341E3423E77EAE000FEF6F /* AppDelegate.swift in Sources */,
+				80341E6623E7AE71000FEF6F /* DataViewControllerTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +442,7 @@
 				80341E5323E77EAF000FEF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80341E5423E77EAF000FEF6F /* Build configuration list for PBXNativeTarget "A.I.M.S.Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +451,7 @@
 				80341E5623E77EAF000FEF6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
