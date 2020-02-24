@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 let list = ["Milk","Bread","Cheese","Juice"]
 var itemExpire = ["Expires: 2/27/20", "Expires: 2/23/20", "Expires: 2/22/20", "Expires: 2/24/20" ]
@@ -15,6 +16,18 @@ var amountLeft = ["Amount Left: .5 gallons", "Amount Left: 10 bread slices", "Am
 var myIndex=0
 
 class DataViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    
+    
+    @IBAction func onSignOutTapped(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            performSegue(withIdentifier: "signOutSegue", sender: nil)
+        } catch {
+            print(error)
+        }
+    }
+    
 
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
