@@ -26,6 +26,7 @@
 		803444A624034422005464FB /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803444A524034422005464FB /* SignInVC.swift */; };
 		803444A82403443C005464FB /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803444A72403443C005464FB /* SignUpVC.swift */; };
 		803444AA24034B25005464FB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 803444A924034B25005464FB /* GoogleService-Info.plist */; };
+		804FC6A2240CC20A000B3936 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 804FC6A1240CC209000B3936 /* default.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		803444A524034422005464FB /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		803444A72403443C005464FB /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		803444A924034B25005464FB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		804FC6A1240CC209000B3936 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
 		8A27CA3B0AB2BF3B16BFE737 /* Pods_A_I_M_S_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_I_M_S_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE35DEDD51C1F1791D2A5D9D /* Pods-A.I.M.S..release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.I.M.S..release.xcconfig"; path = "Target Support Files/Pods-A.I.M.S./Pods-A.I.M.S..release.xcconfig"; sourceTree = "<group>"; };
 		E394E763F8F241D4B7876643 /* Pods-A.I.M.S.Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.I.M.S.Tests.release.xcconfig"; path = "Target Support Files/Pods-A.I.M.S.Tests/Pods-A.I.M.S.Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 				803444A924034B25005464FB /* GoogleService-Info.plist */,
 				80341E5723E78B4B000FEF6F /* Bread.jpg */,
 				80341E5823E78B4B000FEF6F /* Cheese.jpg */,
+				804FC6A1240CC209000B3936 /* default.jpg */,
 				80341E5923E78B4B000FEF6F /* Juice.jpg */,
 				80341E5A23E78B4B000FEF6F /* Milk.jpg */,
 			);
@@ -232,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -256,6 +260,7 @@
 				80341E5D23E78B4B000FEF6F /* Juice.jpg in Resources */,
 				80341E5B23E78B4B000FEF6F /* Bread.jpg in Resources */,
 				80341E5C23E78B4B000FEF6F /* Cheese.jpg in Resources */,
+				804FC6A2240CC20A000B3936 /* default.jpg in Resources */,
 				80341E3D23E77EAE000FEF6F /* Main.storyboard in Resources */,
 				80341E5E23E78B4B000FEF6F /* Milk.jpg in Resources */,
 				803444AA24034B25005464FB /* GoogleService-Info.plist in Resources */,
@@ -510,11 +515,15 @@
 			baseConfigurationReference = 158213954DD1381C2D54FF1C /* Pods-A.I.M.S..debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77D3LZDLW5;
 				INFOPLIST_FILE = A.I.M.S./Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DudePablo.A-I-M-S-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
 			};
@@ -525,11 +534,15 @@
 			baseConfigurationReference = AE35DEDD51C1F1791D2A5D9D /* Pods-A.I.M.S..release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77D3LZDLW5;
 				INFOPLIST_FILE = A.I.M.S./Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DudePablo.A-I-M-S-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
 			};

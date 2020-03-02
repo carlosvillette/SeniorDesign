@@ -115,7 +115,11 @@ class ViewController: UIViewController {
         amountLeftLabel.text = amountLeft[myIndex]
         boughtLabel.text = itemBought[myIndex]
         expireLabel.text = itemExpire[myIndex]
-        myImageView.image = UIImage(named: list[myIndex] + ".jpg")
+        if ( UIImage(named: (list[myIndex] + ".jpg")) ) != nil {
+            myImageView.image = UIImage(named: (list[myIndex] + ".jpg"))
+        } else {
+            myImageView.image = UIImage(named: ("default.jpg"))
+        }
         //tempLabel.text = lastValue(URL1: url, num: 1) // DON'T SEE VALUE FOR SOME REASON???
         //print(self.jsonValue)
         //print(lastValue(URL1: urlString, num: 1) )
